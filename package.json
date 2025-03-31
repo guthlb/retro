@@ -1,13 +1,17 @@
+
 {
+  "homepage": "https://retro-vinyls-app.vercel.app",
+
   "name": "retro-vinyls",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "cd frontend && npm start",
+  "build": "cd frontend && npm run build",
+  "test": "cd frontend && npm test",
+  "eject": "cd frontend && npm run eject"
+},
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
