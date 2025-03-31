@@ -1,0 +1,138 @@
+/* to ensure body and html take full height and remove unwanted margins */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; 
+  background-color: #d1b49c;
+}
+
+#root, .app-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d1b49c;
+}
+
+.welcome-container {
+  background-color: #d1b49c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*FULL VIEWPORT HIEGHT*/
+  width: 100vw; 
+  overflow: hidden; 
+}
+
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin-bottom: 20px;
+}
+
+.top-img {
+  width: 100%;
+  height: 20;
+  transition: transform 0.3s ease-in-out;
+}
+.mid{
+  width: 100%;
+  height:10;
+}
+
+.vinyl-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.vinyl-wrapper {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.vinyl-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.vinyl-frame {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.vinyl-img {
+  width: 100%;
+  height: 100%;
+}
+
+.vinyl-title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+.welcome-img {
+  width: 650px; 
+  height: 70%;
+  margin-bottom: 0px; 
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 15px; 
+  color: #433409;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #dbc88d;
+  border-color: #433409;
+  border-radius: 10px;
+  cursor:crosshair;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.start-button:hover {
+  background-color: #4e1d1d;
+  transform: scale(1.1); 
+}
+
+
+.start-button:hover {
+  background-color: #927014;
+}
+
+.playlist-details {
+  align-self: center;
+  padding: 30px;
+  background-color: #e3e1ca;
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 600px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  
+}
+
+.spotify-embed {
+  margin-top: 10px;
+  border-radius: 12px;
+  width:fit-content
+  
+}
