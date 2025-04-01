@@ -1,7 +1,6 @@
 
 {
   "homepage": "https://retro-vinyls-app.vercel.app",
-
   "name": "retro-vinyls",
   "version": "1.0.0",
   "private": true,
