@@ -16,7 +16,7 @@ function Home() {
   useEffect(() => {
     const fetchPlaylists = async () => {
       try {
-        const response = await fetch('/api/playlists');
+        const response = await fetch('http://localhost:5000/api/playlists');
         const data = await response.json();
         setPlaylists(data);
       } catch (error) {
